@@ -1,0 +1,58 @@
+//RESET ------------------
+    * {
+        padding: 0;
+        margin: 0;
+        text-decoration: none;
+        list-style: none;
+    }
+
+//CONFIG ------------------
+    .container {
+        width: 1140px;
+        margin: 0 auto;
+        display: grid;
+    }
+
+    .clear { 	
+        clear: both; 
+    }
+
+//CORES ------------------
+    $background-servicos: #f6f8fc;
+    $branco: #FFF;
+    $preto: #000;
+    $banner: #121623;
+    $cinza: #BFBFBF;
+    $cinzatexto: #949494;
+    $amarelo: #FFB500;
+
+//FONTES ------------------
+    $font: 'Josefin Sans', sans-serif;
+
+//TEXTOS -----------------
+    h3 {
+        font: normal 48px $font;
+        line-height: 48px;
+        color: $preto;
+    }
+    
+    h4 {
+        font: normal 14px $font;
+        line-height: 14px;
+        letter-spacing: 0.28em;
+        color: $cinza;
+        margin: 15px 0 0;
+    }
+
+    hr {
+        border: 3px solid $amarelo;
+        width: 110.5px;
+        margin: 30px 0 0;
+    }
+
+    p {
+        font: normal 16px $font;
+        line-height: 20px;
+        color: $cinzatexto;
+        margin: 25px 0 0;
+    }

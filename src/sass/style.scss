@@ -1,0 +1,79 @@
+@import 'config';
+
+// TOPO & MENU ------------
+#topo {
+    background-color: $branco;
+    height: 90px;
+    
+    .logo {
+        float: left;
+
+        h1 {
+            margin: 5px 0 0 10px;
+        }
+    }
+    
+    .menu {
+        float: right;
+    
+        ul li {
+            display: inline-block;
+            font: normal 16px $font;
+            line-height: 16px;
+            color: $amarelo;
+        }
+    }
+}
+
+#banner {
+    background-color: $banner;
+    height: 500px;
+    
+    h2 {
+        font: normal 52px $font;
+        line-height: 52px;
+        text-align: right;
+        color: $branco;
+    }
+}
+
+// QUEM SOMOS ------------
+#quem-somos {
+    .grid-quem-somos {
+       grid-template-columns: 50% 50% 50%;
+    }
+
+    .img-quem-somos {
+
+        img {
+            margin: 65px 0 0;
+            width: 460.68px;
+            height: 334px;
+        }
+    }
+
+    .text-quem-somos {
+        margin: 65px 0 0;
+    }
+
+    .icon-quem-somos {
+        margin: 30px 0 0;
+    }
+}
+
+// SERVIÇOS ------------
+#servicos {
+    margin-top: 120px;
+    background-color: $background-servicos;
+    h3 {
+        margin: 65px auto 0;
+    }
+
+    h4 {
+        text-align: center;
+    }
+
+    hr {
+        margin: 30px auto 0;
+    }
+}
